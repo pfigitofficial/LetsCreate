@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+
+#Container{
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+h1{
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 290px;
+    font-size: 60px;
+    font-family: 'Lobster Two';
+}
+form{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    height: 70px;
+    width: 380px;
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Fira Sans Condensed';
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald";
+    font-size: 19px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 180px;
+    font-family: 'Fira Sans Condensed';
+    font-size: 20px;
+}
