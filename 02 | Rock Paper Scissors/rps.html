@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/rps.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="computerBox">
+        <div class="computer">
+            <img src="img/computer.png" id="computer-img">
+        </div>
+
+        <div class="equals">
+            <img src="img/equals.png" id="equals-img">
+        </div>
+
+        <div class="operator">
+            <img src="img/rock.png" id="operator-img">
+        </div>
+    </div>
+
+
+    <div id="resultBox">
+        <h1 id="result">PLAY</h1>
+    </div>
+
+
+    <div class="selectorBox">
+
+        <div id="rock" onclick="rockManager()">
+            <img src="img/rock.png" id="rock-img">
+        </div>
+
+        <div id="paper" onclick="paperManager()">
+            <img src="img/paper.png" id="paper-img">
+        </div>
+
+        <div id="scissors" onclick="scissorsManager()">
+            <img src="img/scissors.png" id="scissors-img">
+        </div>
+
+    </div>
+    <script src="/rps.js"></script>
+</body>
+</html>
