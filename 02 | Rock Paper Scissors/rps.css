@@ -1,0 +1,50 @@
+#resultBox{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+}
+h1{
+    margin: auto;
+    font-size: 90px;
+    font-family: 'Roboto Condensed';
+}
+.selectorBox, .computerBox{
+    height: 150px;
+    width: 500px;
+    background-color: lightgrey;
+    border-radius: 40px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+select{
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: larger;
+    font-family: 'Fira Code';
+}
+
+#rock, #paper, #scissors, .computer, .equals, .operator{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+#rock-img, #paper-img, #scissors-img,
+#computer-img, #equals-img, #operator-img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+#rock-img:hover, #paper-img:hover, #scissors-img:hover{
+    height: 110px;
+    width: 110px;
+}
